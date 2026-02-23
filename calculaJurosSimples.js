@@ -13,7 +13,7 @@ function calculaJurosCompostos (capital, taxa, qtd_de_juros){
     return montante2;
 }
 
-let conta2 = calculaJurosCompostos(100, 1, 10);
+let conta2 = calculaJurosCompostos(10, 1, 10);
 console.log("O montante é: " + conta2);
 
 
